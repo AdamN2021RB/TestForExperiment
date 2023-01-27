@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2023-01-27T15:10:42.873-05:00
-  initializedAtString: 2023-01-27T15:09:39.235-05:00
-  localBranches:
-  - name: main
-    tracking: origin/main
+  lastUpdatedAtString: 2023-01-27T15:20:05.721-05:00
+  initializedAtString: 2023-01-27T15:20:05.714-05:00
+  localBranches: []
   remoteBranches:
   - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/main
     tracking: '[None]'
   remotes:
   - name: origin
@@ -30,23 +30,23 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys:
-    - main
-    values:
-    - name: main
-      remote:
-        name: origin
-        url: https://github.com/AdamN2021RB/TestForExperiment.git
-      trackingBranch: main
+    keys: []
+    values: []
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
       - HEAD
+      - main
     subKeyValues:
     - Values:
       - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/AdamN2021RB/TestForExperiment.git
+        trackingBranch: 
+      - name: main
         remote:
           name: origin
           url: https://github.com/AdamN2021RB/TestForExperiment.git
